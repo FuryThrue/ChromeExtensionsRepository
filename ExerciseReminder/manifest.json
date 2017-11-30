@@ -1,0 +1,27 @@
+﻿{
+  "manifest_version": 2,
+
+  "name": "Exercise Reminder",
+
+  "description": "Это расширение напомнит Вам о том, что следует отвлечься от работы и немного подвигаться.",
+
+  "browser_action" : {
+    "default_icon" : "16x16.png" ,
+    "default_popup" : "popup.html"
+  },
+
+  "icons": {
+    "16": "16x16.png",
+    "32": "32x32.png",
+    "48": "48x48.png",
+    "128": "128x128.png"
+  },
+
+  "background": {
+    "scripts": [ "background.js" ]
+  },
+
+  "version" : "1.0",
+
+  "permissions": [ "storage" ]
+}
